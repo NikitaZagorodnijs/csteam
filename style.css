@@ -1,0 +1,95 @@
+body{
+    background-image: linear-gradient(white,black);
+        font-family: "Oswald", sans-serif;
+        font-optical-sizing: auto;
+        height: 100vh;
+}
+.header_wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5em;
+    text-transform:uppercase;
+    border-bottom: 2px solid black;
+    margin-bottom: 100px;
+}
+.header__list{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 1em;
+    font-weight: 900;
+}
+.header__link{
+    color: black;
+    text-decoration: none;
+    text-shadow: 2px 2px 10px black;
+}
+.header__link:hover{
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px black;
+
+}
+.steam_link{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: large;
+    border-radius: 10%;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px black;
+}
+.steam_link:hover{
+    color: black;
+    background-color: white;
+}
+.hero__info-block{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-shadow: 1px 1px 10px white;
+    
+}
+.hero__wrap{
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+.hero__img-block{
+    display: flex;
+    height: 300px;
+    width: 300px;
+}
+.footer{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    bottom: 10px;
+    text-shadow: 1px 1px 10px black;
+}
+.hero__btn{
+color: white;
+background-color: black;
+padding: 5px;
+font-size: 1.5em;
+font-weight: 900;
+text-transform: uppercase;
+border-radius: 10px;
+border: none;
+box-shadow: 1px 1px 10px black;
+cursor: pointer;
+}
+.hero__img{
+    box-shadow: 2px 2px 100px black;
+    border-radius: 20px;
+}
