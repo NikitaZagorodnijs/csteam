@@ -2,7 +2,7 @@ body{
     background-image: linear-gradient(white,black);
         font-family: "Oswald", sans-serif;
         font-optical-sizing: auto;
-        height: 100vh;
+        height: 100%;
 }
 .header_wrap{
     display: flex;
@@ -92,4 +92,22 @@ cursor: pointer;
 .hero__img{
     box-shadow: 2px 2px 100px black;
     border-radius: 20px;
+}
+.player_cards{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.player_img{
+    height: 300px;
+    border-radius: 20px;
+}
+.card{
+    width: 200px;
+    font-family: "Oswald", sans-serif;
+    color:white;
+    text-shadow: 2px 2px 10px black;
+    font-size: 1.5em;
 }
